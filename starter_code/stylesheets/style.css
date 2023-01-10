@@ -8,3 +8,108 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+html {
+    background-color: #540B51;
+}
+
+
+.logo {
+    padding: 10px 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.div-thing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+li {
+    padding: 0 10px 0;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.div-class {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.buttom-try-for-free {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color:  #540B51;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.buttom-sign-in {
+    background-color: #540B51;
+    border-style: none;
+}
+.class-for-sign-in {
+    margin-top: -10px;
+}
+
+
+
+
+h1{
+    color: white;
+    font-size: 75px;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.slack-class {
+    color: #ECB12F;
+}
+header > div > p {
+    color: white;
+    font-size: 25px;
+} 
+.first-buttom {
+    color: #540B51;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    border-style: none;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.second-buttom {
+    background-color: #4285F4;
+    color: white;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    border-style: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.google-icon {
+    margin: 0;
+    border-radius: 2px;
+    background-color: white;
+    border: 10px solid white;
+}
+.header-sign-in {
+    display: flex;
+    flex-wrap:nowrap;
+} 
