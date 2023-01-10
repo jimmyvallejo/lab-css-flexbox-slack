@@ -78,11 +78,21 @@ h1{
 }
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: #540B51;
     height: 500px;
 }
+
+@media screen and (max-width: 800px) {
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+  }
+
 .first-div{
     width: 620px;
 }
@@ -93,6 +103,27 @@ header > div > p {
     color: white;
     font-size: 25px;
 }
+
+
+.hero {
+    width: 500px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .hero {
+      width: 250px;
+      margin-right: -100px;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    h1 {
+    font-size: 40px;
+    }
+  }
+
+
 .first-buttom {
     color: #540B51;
     width: 300px;
@@ -114,13 +145,49 @@ header > div > p {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
+
+@media screen and (max-width: 700px) {
+    .first-buttom {
+    width: 250px;
+    height: 30px;
+    }
+  }
+
+
+
 .google-icon {
     margin: 0;
     border-radius: 2px;
     background-color: white;
     border: 10px solid white;
+    width: 20px;
+    height: 20px;
 }
+
+@media screen and (max-width: 700px) {
+    .google-icon{
+    width: 10px;
+    height: 10px;
+    }
+  }
+
+@media screen and (max-width: 700px) {
+    .second-buttom {
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    }
+  }
+
+  @media screen and (min-width: 700px) {
+    .second-buttom {
+    
+    margin-left: 20px;
+    }
+  }
+
 .header-sign-in {
     display: flex;
     flex-wrap:nowrap;
@@ -128,11 +195,22 @@ header > div > p {
     padding-top: 15px ;
 }
 
+@media screen and (max-width: 700px) {
+    .header-sign-in{
+    display: flex;
+    flex-direction: column;
+    }
+  }
+
 .trusted {
     background-color: #F3EAE2;
     padding-top: 15px ;
    
 }
+
+
+
+
 
 .trusted p {
     text-align: center;
