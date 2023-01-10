@@ -9,8 +9,15 @@ links blue: #2E71A6
 footer links grey: #454245
 */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
 html {
-    background-color: #540B51;
+    
 }
 
 
@@ -20,6 +27,7 @@ html {
 nav {
     display: flex;
     justify-content: space-between;
+    background-color: #540B51;
 }
 .div-thing {
     display: flex;
@@ -72,7 +80,11 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    background-color: #540B51;
+    height: 500px;
+}
+.first-div{
+    width: 620px;
 }
 .slack-class {
     color: #ECB12F;
@@ -80,7 +92,7 @@ header {
 header > div > p {
     color: white;
     font-size: 25px;
-} 
+}
 .first-buttom {
     color: #540B51;
     width: 300px;
@@ -112,4 +124,122 @@ header > div > p {
 .header-sign-in {
     display: flex;
     flex-wrap:nowrap;
-} 
+    justify-content: space-between;
+    padding-top: 15px ;
+}
+
+.trusted {
+    background-color: #F3EAE2;
+    padding-top: 15px ;
+   
+}
+
+.trusted p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.trusted > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.team {
+    background-color: #F3EAE2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.channels {
+    color:#2E71A6 ;
+}
+
+
+.choose {
+    background-color: #F3EAE2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.communication {
+    color:#2E71A6 ;
+}
+
+
+.work-faster{
+    background-color: #F3EAE2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px; 
+}
+
+.work-faster span {
+    color:#2E71A6;
+}
+
+
+.enterprise {
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+
+.enterprise > h3 {
+    text-align: center;
+}
+
+.enterprise > p {
+    text-align: center;
+}
+
+.enterprise > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.btnenterprise {
+    
+    padding: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color:#540B51 ;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 1px solid #540B51 ;
+}
+
+.btnsales {
+    padding: 13px;
+    text-transform: uppercase;
+    background-color: white;
+    color:#540B51;
+    border-radius: 5px;
+    border-color:#540B51 ;
+    margin-left: 10px;
+    border: 1px solid #540B51 ;
+    font-weight: 600;
+}
+
+
+
+.purple {
+  font-size: 75px;  
+  color: #540B51;
+  font-weight: 600;
+}
+
+.trio p {
+    font-weight: 600;
+}
